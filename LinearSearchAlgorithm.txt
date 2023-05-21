@@ -1,0 +1,7 @@
+1. Start with an array and a target value.
+2. Iterate over each element in the array.
+3. For each element:
+     - Check if the element is equal to the target value.
+       - If they are equal, return the index of the element as the result.
+4. If the target value is not found after iterating through the entire array, return -1 to indicate that the target value was not found.
+5. End the algorithm.

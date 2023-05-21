@@ -1,0 +1,11 @@
+1. Start with an array of elements to be sorted.
+2. Iterate over the array starting from the second element (index 1) up to the last element.
+3. For each element:
+     - Save the value in a variable called 'key'.
+     - Initialize a variable 'j' to the previous index (i - 1).
+     - Compare the 'key' value with the elements in the subarray array[0..i-1].
+       - If an element is greater than the 'key', shift the element to the right by one position.
+       - Continue shifting the elements until the correct position for the 'key' is found.
+     - Insert the 'key' value in the correct position in the subarray array[0..i].
+4. Repeat steps 2-3 until the entire array is sorted.
+5. End the algorithm.

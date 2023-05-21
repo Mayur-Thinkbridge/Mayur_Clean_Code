@@ -1,0 +1,15 @@
+1. Start with an array of elements to be sorted.
+2. Implement a merge sort method that takes the array, left index, and right index as parameters.
+3. If the left index is less than the right index:
+   - Find the middle point by calculating the average of the left and right indices.
+   - Recursively call the merge sort method for the left half of the array, i.e., from the left index to the middle point.
+   - Recursively call the merge sort method for the right half of the array, i.e., from the middle point + 1 to the right index.
+   - Merge the two sorted halves.
+4. The merge method takes the array, left index, middle point, and right index as parameters.
+   - Determine the sizes of the two subarrays to be merged.
+   - Create temporary arrays to hold the elements of the two subarrays.
+   - Copy the elements from the original array to the temporary arrays.
+   - Compare the elements from the two temporary arrays and merge them in ascending order back into the original array.
+   - Copy any remaining elements from the temporary arrays to the original array.
+5. Repeat steps 2-4 until the entire array is sorted.
+6. End the algorithm.

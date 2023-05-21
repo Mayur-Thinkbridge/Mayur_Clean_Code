@@ -1,0 +1,9 @@
+1. Start with an array of elements to be sorted.
+2. Iterate over the array using two nested loops:
+   - The outer loop iterates from 0 to n-1, where n is the length of the array.
+   - The inner loop iterates from 0 to n-i-1, where i is the index of the outer loop.
+3. Within the inner loop, compare adjacent elements.
+   - If the element on the left is greater than the element on the right, swap them.
+4. Repeat steps 2-3 until the entire array is sorted.
+   - In each iteration of the outer loop, the largest element "bubbles" to the end of the array.
+5. End the algorithm.
